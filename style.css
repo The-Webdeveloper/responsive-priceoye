@@ -1,0 +1,1970 @@
+/*header start*/
+
+body{
+    background-color: #f1f3f6;
+}
+.container{
+    width: 100%;
+    
+}
+
+.sub-container{
+    width: 100%;
+    height: 4.5rem;
+    background-color: #4eadf6 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.bar{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    margin-left: 3rem;
+}
+
+.input{
+    width: 30rem;
+    height: 2.8rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    margin-left: 7rem;
+}
+
+.container-two{
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+    width: 10rem;
+}
+.button{
+margin-right: 4rem;
+
+}
+.buttons{
+    margin-left:1rem;
+    padding: 0.7rem 1.7rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+    color: #4eadf6;
+}
+.button-color{
+    color: white;
+    background-color: #4eadf6;
+}
+.button-color:hover{
+    background-color: white;
+    color: #4eadf6;
+}
+.button-color-2:hover{
+    color: white;
+    background-color: #4eadf6;
+}
+/*header end*/
+
+/*header responsive start*/
+@media (max-width:1310px){
+    
+    .container-two{
+        width: 10rem ;
+    }
+    .buttons{
+        font-size: o.8rem;
+        padding: 0.7rem 1.3rem;
+        margin-left: 1rem;
+    }
+    .input{
+        width: 24rem;
+        height: 2.6rem;
+    }
+}
+
+@media (max-width: 1149px){
+    .buttons{
+         padding: 0.8rem 1.3rem;
+         font-size: 0.8rem;
+    }
+    .container-two{
+        width: 8rem;
+    }
+    .input{
+        width: 24rem;
+        height: 2.4rem;
+    }
+    .button{
+        margin-right: 1rem;
+    }
+}
+@media (max-width:1038px){
+    .container{
+        height: 3.8rem;
+        display: flex;
+        align-items: center;
+    }
+    .input{
+        height: 2.2rem;
+        width: 19rem;
+        margin-left: 4rem;
+    }
+    .buttons{
+        margin-left: 1rem;
+        padding: 0.7rem 1.3rem;
+        font-size: 0.8rem;
+    }
+    .button{
+        margin-right: 1rem;
+    }
+    .container-two{
+        width: 8rem;
+        gap: 1.4rem;
+    }
+}
+
+
+@media(max-width:932px){
+    .buttons{
+        margin-left: 0.8rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    .button{
+        margin-right: 0.5rem;
+    }
+    .input{
+        margin-left: 4rem;
+        width: 17rem;
+        height: 2rem;
+    }
+    .bar{
+        margin-left: 2rem;
+    }
+    .container-two{
+        gap: 1.4rem;
+        width: 7rem;
+    }
+}
+
+@media (max-width:878px){
+    .buttons{
+        margin-left: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    .button{
+        margin-right: 0.5rem;
+    }
+    .input{
+        margin-left: 4.5rem;
+        width: 17rem;
+        height: 2rem;
+    }
+    .bar{
+        margin-left: 2rem;
+    }
+    .container-two{
+        gap: 1.8rem;
+    }
+}
+
+@media (max-width:838px){
+    .button{
+        margin-right: 0.5rem;
+    }
+    .input{
+        margin-left: 3.7rem;
+        width: 14rem;
+    }
+    .bar{
+        margin-left: 1rem;
+    }
+    .container-two{
+        gap: 1.4rem;
+    }
+}
+
+@media (max-width:776px){
+    .buttons{
+        margin-right: 0.3rem;
+        padding: 0.5rem 0.8rem;
+    }
+    .input{
+        margin-left: 3.3rem;
+        width: 12rem;
+    }
+    .bar{
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .container-two{
+        gap: 1.4rem;
+    }
+}
+
+@media (max-width: 723px){
+    .buttons{
+        padding: 0.4rem 0.7rem;
+        font-size: 0.6rem;
+    }
+    .button{
+        margin-right: 2.3rem;
+    }
+    .input{
+        margin-left: 3.3rem;
+        width: 10rem;
+    }
+    .bar{
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .container-two{
+        gap: 1.2rem;
+        width: 6.4rem ;
+    }
+}
+
+@media (max-width: 680px){
+    .container{
+        height: 3.4rem;
+        gap: 2rem;
+    }
+    .buttons{
+        padding: 0.4rem 0.7rem;
+        font-size: 0.6rem;
+    }
+    .button{
+        margin-right: 2rem;
+    }
+    .input{
+        margin-left: 2.5rem;
+        width: 10rem;
+        height: 1.6rem;
+    }
+    .bar{
+        margin-left: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .container-two{
+        gap: 0.5rem;
+        width: 6rem;
+    }
+}
+
+@media (max-width: 672px){
+    .sub-container{
+        height: 4rem;
+        gap: 3rem;
+    }
+    .buttons{
+        margin-left: 0.6rem;
+        padding: 0.4rem 0.7rem;
+        font-size: 0.7rem;
+    }
+    .button{
+        margin-right: 0.5rem;
+    }
+    .input{
+        margin-left: 2.5rem;
+        width: 10rem;
+        height: 1.6rem;
+    }
+    .bar{
+        margin-left: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .container-two{
+        gap: 0.5rem;
+        width: 5.5rem ;
+    }
+}
+
+
+@media (max-width: 604px){
+    .container{
+        height: 2.8rem;
+        gap: 2rem;
+    }
+    .buttons{
+        
+        padding: 0.3rem 0.6rem;
+        font-size: 0.6rem;
+    }
+    .button{
+        margin-right: 0.6rem;
+    }
+    .input{
+        margin-left: 2.3rem;
+        width: 8rem;
+        height: 1.6rem;
+    }
+    .bar{
+        margin-left: 0.8rem;
+        font-size: 0.6rem;
+    }
+    .container-two{
+        gap: 0.5rem;
+        width: 5rem ;
+    }
+}
+@media (max-width: 543px){
+    .sub-container{
+        height: 3.8rem;
+        gap: 2rem;
+    }
+    .buttons{
+        
+        padding: 0.3rem 0.6rem;
+        font-size: 0.6rem;
+    }
+    .button{
+        margin-right: 0.6rem;
+    }
+    .input{
+       display: none;
+    }
+    .bar{
+        margin-left: 0.8rem;
+        font-size: 0.6rem;
+    }
+    .container-two{
+        gap: 0.5rem;
+        width: 5rem ;
+    }
+}
+
+@media (max-width: 424px){
+    .sub-container{
+        height: 3.5rem;
+        gap: 1.7rem;
+    }
+    .buttons{
+        margin-left: 0.4rem;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.59rem;
+    }
+    .button{
+        margin-right: 0.5rem;
+    }
+    .input{
+       display: none;
+    }
+    .bar{
+        margin-left: 0.7rem;
+        font-size: 0.5rem;
+    }
+    .container-two{
+        gap: 0.3rem;
+        width: 5rem ;
+    }
+}
+
+@media (max-width: 400px){
+    .sub-container{
+        height: 3.5rem;
+        gap: 0.2rem;
+    }
+    .buttons{
+        margin-left: 0.4rem;
+        padding: 0.3rem 0.4rem;
+        font-size: 0.59rem;
+    }
+    .button{
+        margin-right: 0.3rem;
+    }
+    .input{
+        display: none;
+    }
+    .bar{
+        margin-left: 0.6rem;
+        font-size: 0.5rem;
+    }
+    .container-two{
+        gap: 0.3rem;
+        width: 4.8rem ;
+    }
+}
+
+@media (max-width: 360px){
+    .sub-container{
+        height: 3rem;
+        gap: 0.2rem;
+    }
+    .buttons{  
+        margin-left: 0.2rem;              
+        padding: 0.3rem 0.3rem;
+        font-size: 0.55rem;
+    }
+    .button{
+        margin-right: 0.3rem;
+    }
+    .input{
+        display: none;
+    }
+    .bar{
+        margin-left: 1rem;
+        font-size: 0.5rem;
+    }
+    .container-two{
+        gap: 0.5rem;
+        width: 5.3rem ;
+    }
+}
+
+@media (max-width: 343px){
+    .sub-container{
+        height: 2.7rem;
+        gap: 0.1rem;
+    }
+    .buttons{
+        margin-left: 0.1rem;
+        padding: 0.25rem 0.25rem;
+        font-size: 0.45rem;
+    }
+    .button{
+        margin-right: 0rem;
+    }
+    .input{
+        display: none;
+    }
+    .bar{
+        margin-left: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .container-two{
+        gap: 0.2rem;
+        width: 4.2rem ;
+    }
+}
+/*header responsive end*/
+
+/*items styling start*/
+.items{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 4.2rem;
+}
+.item-1{
+    width: 4.8rem;
+    height: 4.9rem;
+}
+.item-2{
+    width: 4rem;
+    height: 4.2rem;
+    margin-top: 0.6rem;
+}
+.item-3{
+    width: 3rem;
+    height: 2.7rem;
+    margin-top: 1rem;
+}
+.item-4{
+    width: 4rem;
+    height: 3.8rem;
+    margin-top: 0.5rem;
+}
+.item-5{
+    width: 3rem;
+    height: 3.8rem;
+    margin-top: 0.5rem;
+}
+.item-6{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+.item-7{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+.item-8{
+    width: 5rem;
+    height: 4.2rem;
+    margin-top: 0.5rem;
+}
+.items-name{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    gap: 3.5rem;
+    margin-right: 0.3rem;
+}
+/*items styling end*/
+
+/*items responsive start*/
+@media(max-width: 992px){
+    .items{
+        gap: 4rem;
+    }
+    .items-name{
+        font-size: 0.8rem;
+        gap: 3.1rem;
+        margin-right: 0;
+    }
+}
+@media(max-width: 950px){
+    .items{
+        gap: 4rem;
+    }
+    .items-name{
+        font-size: 0.8rem;
+        gap: 3rem;
+        margin-right: 0;
+    }
+}
+@media(max-width: 932px){
+    .items{
+        gap: 3.8rem;
+    }
+    .items-name{
+        font-size: 0.8rem;
+        gap: 2.7rem;
+        margin-right: 0;
+    }
+}
+@media(max-width: 916px){
+    .items{
+        gap: 3.4rem;
+    }
+    .items-name{
+        font-size: 0.77rem;
+        gap: 2.7rem;
+        margin-right: 0;
+    }
+}
+@media (max-width: 885px){
+    .items{
+        gap: 3.3rem;
+    }
+    .items-name{
+        font-size: 0.76rem;
+        gap: 2.3rem;
+        margin-right: 0;
+    }
+    .item-1{
+        width: 4.5rem;
+        height: 4.7rem;
+    }
+    .item-2{
+        width: 3.8rem;
+        height: 4rem;
+    }
+    .item-3{
+        width: 2.8rem;
+        height: 2.5rem;
+    }
+    .item-4{
+        width: 3.8rem;
+        height: 3.6rem;
+    }
+    .item-5{
+        width: 2.8rem;
+        height: 3.6rem;
+    }
+    .item-6{
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .item-7{
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .item-8{
+        width: 4.8rem;
+        height: 4rem;
+    }
+}
+@media (max-width: 885px){
+    .items{
+        gap: 2.7rem;
+    }
+    .items-name{
+        font-size: 0.73rem;
+        gap: 2rem;
+        margin-right: 0;
+    }
+    .item-1{
+        width: 4.5rem;
+        height: 4.7rem;
+    }
+    .item-2{
+        width: 3.8rem;
+        height: 4rem;
+    }
+    .item-3{
+        width: 2.8rem;
+        height: 2.5rem;
+    }
+    .item-4{
+        width: 3.8rem;
+        height: 3.6rem;
+    }
+    .item-5{
+        width: 2.8rem;
+        height: 3.6rem;
+    }
+    .item-6{
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .item-7{
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .item-8{
+        width: 4.8rem;
+        height: 4rem;
+    }
+}
+@media (max-width: 776px){
+    .items{
+        gap: 2.2rem;
+    }
+    .items-name{
+        font-size: 0.64rem;
+        gap: 1.2rem;
+        margin-right: 0;
+    }
+    
+    .item-1{
+        width: 4rem;
+        height: 4rem;
+    }
+    .item-2{
+        width: 3.4rem;
+        height: 2.5rem;
+    }
+    .item-3{
+        width: 2rem;
+        height: 2rem;
+    }
+    .item-4{
+        width: 3.2rem;
+        height: 3rem;
+    }
+    .item-5{
+        width: 2rem;
+        height: 3rem;
+    }
+    .item-6{
+        width: 3rem;
+        height: 3rem;
+    }
+    .item-7{
+        width: 3rem;
+        height: 3rem;
+    }
+    .item-8{
+       width: 4rem;
+       height: 3.2rem;
+    }
+}
+@media (max-width: 665px){
+    .items{
+        gap: 2rem;
+    }
+    .items-name{
+        font-size: 0.63rem;
+        gap: 1.1rem;
+        margin-right: 0;
+    }
+    
+    .item-1{
+        width: 4rem;
+        height: 4rem;
+    }
+    .item-2{
+        width: 3.4rem;
+        height: 2.5rem;
+    }
+    .item-3{
+        width: 2rem;
+        height: 2rem;
+    }
+    .item-4{
+        width: 3.2rem;
+        height: 3rem;
+    }
+    .item-5{
+        width: 2rem;
+        height: 3rem;
+    }
+    .item-6{
+        width: 3rem;
+        height: 3rem;
+    }
+    .item-7{
+        width: 3rem;
+        height: 3rem;
+    }
+    .item-8{
+       width: 4rem;
+       height: 3.2rem;
+    }
+}
+@media (max-width: 643px){
+    .items{
+        gap: 2rem;
+    }
+    .items-name{
+        font-size: 0.62rem;
+        gap: 1rem;
+        margin-right: 0;
+    }
+    
+    .item-1{
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+    .item-2{
+        width: 3.2rem;
+        height: 2.2rem;
+    }
+    .item-3{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .item-4{
+        width: 3rem;
+        height: 2.8rem;
+    }
+    .item-5{
+        width: 1.8rem;
+        height: 2.8rem;
+    }
+    .item-6{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .item-7{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .item-8{
+       width: 3.8rem;
+       height: 3rem;
+    }
+}
+@media (max-width: 590px){
+    .items{
+        gap: 1.6rem;
+    }
+    .items-name{
+        font-size: 0.59rem;
+        gap: 1rem;
+        margin-right: 0;
+    }
+    
+    .item-1{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .item-2{
+        width: 3.2rem;
+        height: 2.2rem;
+    }
+    .item-3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .item-4{
+        width: 2.7rem;
+        height: 2.5rem;
+    }
+    .item-5{
+        width: 1.8rem;
+        height: 2.5rem;
+    }
+    .item-6{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-7{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-8{
+       width: 3.5rem;
+       height: 3rem;
+    }
+}
+
+@media (max-width: 562px){
+    .items{
+        gap: 1.5rem;
+    }
+    .items-name{
+        font-size: 0.54rem;
+        gap: 0.9rem;
+        margin-right: 0;
+        margin-left: 0.32rem;
+    }
+    .Speakers{
+        display: none;
+    }
+    .item-1{
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+    .item-2{
+        width: 3.2rem;
+        height: 2.2rem;
+    }
+    .item-3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .item-4{
+        width: 2.7rem;
+        height: 2.5rem;
+    }
+    .item-5{
+        width: 1.8rem;
+        height: 2.5rem;
+    }
+    .item-6{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-7{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-8{
+       width: 3.5rem;
+       height: 3rem;
+    }
+}
+@media (max-width: 506px){
+    .items{
+        gap: 1.5rem;
+    }
+    .items-name{
+        font-size: 0.54rem;
+        gap: 0.9rem;
+        margin-right: 0;
+    }
+    .Speakers{
+        display: none;
+    }
+    
+    .item-1{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .item-2{
+        width: 3.2rem;
+        height: 2.2rem;
+    }
+    .item-3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .item-4{
+        width: 2.7rem;
+        height: 2.5rem;
+    }
+    .item-5{
+        width: 1.8rem;
+        height: 2.5rem;
+    }
+    .item-6{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-7{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-8{
+       width: 3.5rem;
+       height: 3rem;
+    }
+}
+@media (max-width: 417px){
+    .items{
+        gap: 1.5rem;
+    }
+    .items-name{
+        font-size: 0.5rem;
+        gap: 0.7rem;
+        margin-right: 0;
+    }
+    .Speakers{
+        display: none;
+    }
+    
+    .item-1{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .item-2{
+        width: 3.2rem;
+        height: 2.2rem;
+    }
+    .item-3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .item-4{
+        width: 2.7rem;
+        height: 2.5rem;
+    }
+    .item-5{
+        width: 1.8rem;
+        height: 2.5rem;
+    }
+    .item-6{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-7{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .item-8{
+       width: 3.5rem;
+       height: 3rem;
+    }
+}
+@media (max-width: 363px){
+    .items{
+        gap: 0.8rem;
+    }
+    .items-name{
+        font-size: 0.45rem;
+        gap: 0.67rem;
+        margin-right: 0;
+    }
+    .Speakers{
+        display: none;
+    }
+    .Shavers{
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    .items{
+        gap: 0.8rem;
+    }
+    .items-name{
+        font-size: 0.45rem;
+        gap: 0.67rem;
+        margin-right: 0;
+    }
+    .Speakers{
+        display: none;
+    }
+    .Shavers{
+        display: none;
+    }
+}
+/*items responsive end*/
+
+.image-container{
+    width: 100%;
+    background-color: #f1f3f6;
+}
+.mobile-img{
+    margin-top: 3rem;
+    width: 100%;
+}
+.pink-container{
+    width: 100%;
+    height: 38rem;
+    background-color: #f94e9a;
+    margin-top: 3rem;
+}    
+.pink-sub-container{
+     width: 100%;
+     margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+}
+.pink-sub-container-one{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem
+}
+.pink-container-1{
+    width: 100%;
+    gap: 49rem;
+     display: flex;
+     justify-content: center;
+    
+}
+
+.heading{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 5rem;
+}
+.view{
+    margin-top: 5rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
+.sub-section-1{
+    width: 50%;
+    margin-top: 5rem;
+    display: flex;
+}
+.pink-sub-container-2{
+    width: 16rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.earbuds-img{
+    width: 8rem;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+.Wireless{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: rgb(61, 60, 60);
+}
+.price{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.price-2{
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-left: 1.3rem;
+    color:rgb(114, 110, 110);
+    text-decoration-color: red;
+}
+del{
+    color: red;
+}
+.span-price{
+    color: rgb(114, 110, 110);
+}
+.discount{
+    width: 4.5rem;
+    background-color: #f0faf7;
+    color:  #0bb07e;
+    margin-left: 5.3rem;
+}
+
+@media (max-width :1160px){
+   .pink-sub-container-2{
+    width: 15rem;
+   }
+   .pink-container-1{
+    gap: 49rem ;
+   }
+}
+@media (max-width: 1120px){
+    .pink-sub-container-2{
+        width: 14rem;
+    }
+    .pink-container-1{
+        gap: 45rem;
+    }
+}
+@media (max-width: 1040px){
+    .pink-sub-container-2{
+        width: 14rem;
+    }
+    .pink-sub-container{
+        gap: 1rem;
+    }
+    .pink-sub-container-one{
+        gap: 1rem;
+    }
+    .pink-container-1{
+        gap: 41rem;
+    }
+}
+@media (max-width:970px){
+    .pink-sub-container-2{
+        width: 13rem;
+    }
+    .discount{
+        margin-left: 4.7rem;
+    }
+    .Wireless{
+        font-size: 0.8rem;
+    }
+    .price{
+        font-size: 1rem;
+    }
+    .price-2{
+        font-size: 0.8rem;
+    }
+    .pink-container-1{
+        gap: 33rem;
+    }
+}
+@media (max-width:900px){
+    .pink-container{
+        margin-top: 1rem;
+    }
+    .pink-sub-container-2{
+        width: 11rem;
+        height: 16rem;
+    }
+    .discount{
+        margin-left: 4rem;
+    }
+    .Wireless{
+        font-size: 0.7rem;
+    }
+    .price{
+        font-size: 0.9rem;
+    }
+    .price-2{
+        font-size: 0.7rem;
+    }
+    .pink-container-1{
+        gap: 30rem;
+    }
+    .earbuds-img{
+        width: 6rem;
+        margin-left: 2.5rem;
+    }
+    .pink-container-1{
+        gap: 25rem;
+    }
+}
+@media (max-width:770px){
+    .pink-container{
+        height: 36rem;
+    }
+    .pink-sub-container-2{
+        width: 9rem;
+        height: 14rem;
+    }
+    .discount{
+        margin-left: 3rem;
+    }
+    .Wireless{
+        font-size: 0.5rem;
+    }
+    .price{
+        font-size: 0.7rem;
+    }
+    .price-2{
+        font-size: 0.5rem;
+    }
+    .pink-container-1{
+        gap: 38rem;
+    }
+    .earbuds-img{
+        width: 4rem;
+        margin-left: 2.5rem;
+    }
+    .pink-container-1{
+        gap: 22rem;
+    }
+    .view{
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+@media (max-width:642px){
+    .pink-container{
+        height: 33rem;
+    }
+    .pink-sub-container-2{
+        width: 8rem;
+        height: 14rem;
+    }
+    .discount{
+        margin-left: 2rem;
+    }
+    .Wireless{
+        font-size: 0.5rem;
+    }
+    .price{
+        font-size: 0.7rem;
+    }
+    .price-2{
+        font-size: 0.5rem;
+    }
+    .pink-container-1{
+        gap: 30rem;
+    }
+    .earbuds-img{
+        width: 4rem;
+        margin-left: 2.5rem;
+    }
+    .pink-container-1{
+        gap: 15rem;
+    }
+    .view{
+        font-size: 0.76rem;
+        padding: 0.5rem 0.8rem;
+    }
+    .display{
+        display: none;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 460px){
+    .pink-sub-container{
+        gap: 0.4rem;
+    }
+    .pink-sub-container-one{
+        gap: 0.4rem;
+    }
+    .pink-container-1{
+        gap: 12rem;
+    }
+    .pink-sub-container-2{
+        height: 13rem;
+    }
+    .pink-container{
+        height: 30rem;
+    }
+}
+@media(max-width : 426px){
+    .pink-container{
+        height: 25rem;
+    }
+    .display-2{
+        display: none;
+}
+.pink-container-1{
+    gap: 4.5rem;
+
+}
+.view{
+    padding: 0.3rem 0.6rem;
+    font-size: 0.5rem;
+    margin-top: 3rem;
+}
+.heading{
+    font-size: 0.77rem;
+    margin-top: 3rem;
+}
+.earbuds-img{
+    width: 3rem;
+}
+.pink-sub-container-2{
+    height: 12rem;
+}
+}
+
+@media (max-width: 316px){
+    .view{
+        padding: 0.3rem 0.4rem;
+        font-size: 0.5rem;
+        margin-top: 3rem;
+    }
+    .smart-head{
+        display: none;
+    }
+    .pink-sub-container-2{
+        margin-left: 0.6rem;
+    }
+}
+@media (max-width: 276px){
+    .view{
+        font-size: 0.6rem;
+        padding: 0.4rem 0.5rem;
+    }
+    .heading{
+        font-size: 0.7rem;
+    }
+    .heading{
+        font-size: 0.5rem;
+    }
+    .pink-sub-container-2{
+        margin-left: 0.5rem;
+    }
+    .pink-container-1{
+        gap: 3.5rem;
+    
+    }
+}
+
+.paragraph{
+    margin-top: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para-1{
+    font-size: 1.2rem;
+    color: rgb(58, 57, 57);
+}
+
+.head-container{
+    width: 100%;
+    height: 70rem;
+    background-color: rgb(228, 224, 224);
+}
+.phone-2{
+    width: 8rem;
+    margin-left: 5rem;
+}
+.best-seller-main-conatiner{
+    width: 34rem;
+    height: 38rem;
+    display: grid;
+    grid-template-columns: 41% 28% 28%;
+    gap: 15px;
+}
+.mobile-one{
+height: 541px !important;
+grid-column: 1;
+grid-row: 1 / span 2;
+}
+.price-detail{
+    width: 100%;
+    position: relative;
+}
+.pricee{
+    color: black;
+}
+.discount-price{
+    align-items: center;
+    color: rgba(7, 18, 27, .4);
+    justify-content: space-between;
+}
+.dis-price-two{
+    margin-right: 7.5px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.dis-price-three{
+    display: flex;
+    align-items: center;
+    color: rgb(7, 18, 27, 4);
+    justify-content: space-between;
+}
+.pink-cont-2{
+    background-color: #f1811d;
+}
+/*orange container (pink-cont-2) responsive*/
+@media(max-width: 970px){
+    .pink-cont-2{
+        margin-top: 15rem;
+    }
+}
+@media(max-width: 900px){
+    .pink-cont-2{
+        margin-top: 10rem;
+    }
+}
+@media(max-width: 770px){
+    .pink-cont-2{
+        margin-top: 6rem;
+    }
+}
+@media(max-width: 642px){
+    .pink-cont-2{
+        margin-top: 8rem;
+    }
+}
+.pink-cont-3{
+    background-color: #fce55e;
+}
+.buy-img{
+    width: 100%;
+}
+.buynow-img{
+    width: 100%;
+}
+
+
+.shopbyprice-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    background-color: #f1f3f6;
+    
+}
+.shop-head{
+    font-size: 1.3rem;
+    padding-top: 3rem;
+}
+.view-2{
+   width: 6rem;
+   height: 2.5rem;
+   background-color: rgb(241, 240, 240);
+   border: 1px solid gray;
+   border-radius: 0.3rem;
+   margin-top: 2rem;
+}
+.shopbyprice-2-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;
+    background-color: #f1f3f6;
+}
+.shopbyprice-sub-container-1{
+    width: 14.5%;
+    height: 3.3rem;
+    background-color: #fff348;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.7rem;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.shop-para{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+.shopbyprice-3-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-color: #f1f3f6;
+}
+.shopbyprice-sub-container-1:hover{
+    background-color: #4eadf6;
+    color: white;
+}
+.shopbyprice-sub-container-1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #48afff;
+    z-index: -1;
+    transition: 0.8s;
+}
+.transition::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.transition:hover::before{
+    height: 180%;
+}
+
+@media (max-width: 1204px){
+    .shopbyprice-sub-container-1{
+        width: 18%;
+    }
+    .shopbyprice-container{
+        gap: 12rem;
+    }
+}
+@media (max-width: 1121px){
+    .shopbyprice-sub-container-1{
+        width: 18%;
+    }
+    .shopbyprice-container{
+        gap: 12rem;
+    }
+}
+@media (max-width: 936px){
+    .shopbyprice-sub-container-1{
+        width: 17%;
+    }
+    .shopbyprice-container{
+        gap: 10rem;
+    }
+    .shop-para{
+        font-size: 0.8rem;
+    }
+    .view-2{
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    .shop-head{
+        font-size: 1.2rem;
+    }
+  
+}
+@media (max-width: 836px){
+    .shopbyprice-sub-container-1{
+        width: 18%;
+        height: 2.8rem;
+    }
+    .shop-para{
+        font-size: 0.7rem;
+    }
+    .view-2{
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    .shop-head{
+        font-size: 1.2rem;
+    }
+    .shopbyprice-container{
+        margin-top: 7rem;
+    }
+}
+@media(max-width: 770px){
+    .shopbyprice-container{
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 740px){
+    .shopbyprice-sub-container-1{
+        width: 18%;
+        height: 2.8rem;
+    }
+    
+    .shop-para{
+        font-size: 0.7rem;
+    }
+    .view-2{
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    .shop-head{
+        font-size: 1.2rem;
+    }
+    .shopbyprice-container{
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 709px){
+    .shopbyprice-sub-container-1{
+        width: 26%;
+        height: 2.8rem;
+    }
+    .shop-para{
+        font-size: 0.8rem;
+    }
+    .view-2{
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    .shop-head{
+        font-size: 1.2rem;
+    }
+    .shopbyprice-container{
+        margin-top: 4rem;
+    }
+    .shopbyprice-sub-container-2{
+        display: none;
+    }
+}
+@media(max-width:644px){
+    .shopbyprice-container{
+        margin-top: 5rem;
+    }
+    .view-2{
+        width: 4.7rem;
+        font-size: 0.7rem;
+    }
+    .shop-head{
+        font-size: 1rem;
+    }
+    .shopbyprice-sub-container-2{
+        display: none;
+    }
+    .shopbyprice-sub-container-1{
+        width: 25.5%;
+        height: 2.8rem;
+    }
+    .shop-para{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:520px){
+    .shopbyprice-sub-container-1{
+        width: 25.8%;
+        height: 2.8rem;
+    }
+    .shop-para{
+        font-size: 0.6rem;
+    }
+}
+@media(max-width:460px){
+    .shopbyprice-sub-container-1{
+        width: 36%;
+        height: 2.8rem;
+    }
+    .shop-para{
+        font-size: 0.58rem;
+    }
+    .shopbyprice-sub-container-3{
+        display: none;
+    }
+    .shopbyprice-container{
+        margin-top: 6.8rem;
+        gap: 1rem;
+    }
+}
+@media(max-width:430px){
+    .shopbyprice-container{
+        margin-top: 7rem;
+        gap: 1rem;
+    }
+    .shopbyprice-sub-container-1{
+        width: 36%;
+        height: 2.6rem;
+    }
+    .shop-para{
+        font-size: 0.6rem;
+    }
+    .shopbyprice-sub-container-3{
+        display: none;
+    }
+    .view-2{
+        font-size: 0.58rem;
+        width: 4.2rem;
+    }
+    .heading{
+        font-size: 1.2rem;
+    }
+}
+.circle-img-container{
+    width: 100%;
+}
+.round{
+    border-radius: 100%;
+}
+
+.gray{
+    width: 100%;
+    height: 15rem;
+    background-color: #f1f3f6;
+}
+
+
+
+.main-sec-last-part-container{
+      width: 100%;
+      height: 10rem;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      gap: 14rem;
+}
+.last-img{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.last-sub-img{
+    width: 5.5rem;
+    margin-top: 1rem;
+}
+/*last img*/
+@media(max-width : 1030px){
+    .last-img{
+      gap: 8rem;
+    }
+    .last-sub-img{
+        width: 4.5rem;
+    }
+}
+@media(max-width : 734px){
+    .last-img{
+      gap: 6rem;
+    }
+    .last-sub-img{
+        width: 4rem;
+    }
+}
+@media(max-width : 606px){
+    .last-img{
+        gap: 4rem;
+      }
+      .last-sub-img{
+        width: 3.5rem;
+    }
+}
+@media(max-width : 496px){
+    .last-img{
+        gap: 3rem;
+      }
+      .main-sec-last-part-container{
+        height: 7rem;
+      }
+}
+@media(max-width : 412px){
+    .last-img{
+        gap: 2rem;
+      }
+      .last-sub-img{
+        width: 3rem;
+      }
+      .main-sec-last-part-container{
+        height: 5.5rem;
+      }
+}
+@media(max-width : 335px){
+    .last-img{
+        gap: 2rem;
+      }
+      .last-sub-img{
+        width: 2.5rem;
+      }
+      .main-sec-last-part-container{
+        height: 5rem;
+        
+      }
+}
+.footer-main-container{
+    width: 100%;
+    height: 26rem;
+    background-color: #48afff;
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+}
+.logo-2{
+    width: 9rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+.footer-list li{
+    list-style-type: none;
+    color: white;
+    gap: 2rem;
+}
+.footer-list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2rem;
+}
+.footer-list-two li{
+    color: white;
+    font-size: 1rem;
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.footer-list-two ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.footer-head{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.footer-list-three li{
+    color: white;
+    font-size: 1rem;
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.googleplay-img{
+    width: 12rem;
+}
+@media (max-width:1000px){
+    .footer-main-container{
+        gap: 5rem;
+    }
+}
+@media (max-width:763px){
+    .footer-main-container{
+        gap: 3rem;
+    }
+    .logo-2{
+        width: 7rem;
+    }
+    .footer-list{
+        font-size: 0.8rem;
+    }
+    .footer-list-two li{
+        font-size: 0.8rem;
+    }
+    .footer-head{
+        font-size: 1rem;
+    }
+    .googleplay-img{
+        width: 10rem;
+    }
+}
+@media (max-width: 593px){
+    .footer-display-noone{
+        display: none;
+    }
+}
+@media(max-width:413px){
+    .footer-main-container{
+        gap: 1rem;
+    }
+    .logo-2{
+        width: 6rem;
+    }
+}
+@media (max-width: 351px){
+    .footer-list{
+        font-size: 0.69rem;
+    }
+    .footer-list-two li{
+        font-size: 0.69rem;
+    }
+    .footer-head{
+        font-size: 0.8rem;
+    }
+}
+.copyright{
+    width: 100%;
+    height: 3rem;
+    background-color: #3EABFF;
+}
+.copyright-2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8rem;
+}
+@media(max-width:763px){
+   .copyright-2{
+    font-size: 0.9rem;
+   }
+}
+@media(max-width:351px){
+    .copyright-2{
+     font-size: 0.7rem;
+    }
+ }
+ .circle-img{
+    background-color:#f1f3f6;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+ }
+ .gray-2{
+    height: 4rem;
+ }
+ .circle-sub-img{
+    width: 5rem;
+    margin-top: 1rem;
+ }
+ .h5{
+    font-size: 1.3rem;
+ }
+.back-color{
+    background-color: #f1f3f6;
+    height: 3rem;
+}
+ .text-center{
+    text-align: center;
+ }
+ .brand-text{
+    margin-top: 10px;
+ }
+@media (max-width:1400px){
+    .circle-sub-img{
+        width: 4rem;
+    }
+}
+@media (max-width:1045px){
+    .circle-sub-img{
+        width: 3rem;
+    }
+    .gray-2{
+        height: 2rem;
+     }
+     
+}
+@media (max-width:970px){
+    .pink-cont-2{
+        margin-top: 1rem;
+    }
+}
+@media (max-width:838px){
+.shopbyprice-container{
+    margin-top: 0rem;
+}
+.pink-cont-2{
+    margin-top: 0rem;
+}
+.buy-img{
+    margin-top: 0rem;
+}
+}
+@media (max-width:833px){
+    .circle-sub-img-2{
+        display: none;
+    }
+    
+}
+@media (max-width:697px){
+    .circle-sub-img-2{
+        display: none;
+    }
+    .circle-sub-img-3{
+        display: none;
+    }
+   
+}
+@media (max-width:500px){
+    .circle-sub-img-2{
+        display: none;
+    }
+    .circle-sub-img-3{
+        display: none;
+    }
+    .circle-sub-img-4{
+        display: none;
+    }
+    .circle-sub-img{
+        width: 2.5rem;
+    }
+    
+}
+@media (max-width: 445px){
+    .circle-sub-img-2{
+        display: none;
+    }
+    .circle-sub-img-3{
+        display: none;
+    }
+    .circle-sub-img-4{
+        display: none;
+    }
+    .circle-sub-img-5{
+        display: none;
+    }
+}
+@media (max-width:350px){
+    .circle-img{
+        gap: 1.1rem;
+    }
+}
+@media (max-width:900px ){
+    .grayy-three{
+         height: 7rem;
+    }
+}
+@media (max-width:770px ){
+    .grayy-three{
+         height: 6rem;
+    }
+}
+@media (max-width:642px ){
+    .grayy-three{
+         height: 7.7rem;
+    }
+}
+@media (max-width:460px ){
+    .grayy-three{
+         height: 9rem;
+    }
+}
